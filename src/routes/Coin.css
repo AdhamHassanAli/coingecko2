@@ -89,6 +89,7 @@ tr{
         max-width: 100%;
         margin: .5rem;
         padding: 0 .5rem;
+        overflow: auto;
     }
 
     .stats {
@@ -105,11 +106,6 @@ tr{
 
     .rank-btn {
         margin: .5rem 0;
-    }
-}
-@media screen and (max-width: 300px) {
-    .content{
-        overflow: auto;
     }
 }
 
